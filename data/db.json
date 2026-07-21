@@ -1,0 +1,304 @@
+{
+  "employees": [
+    {
+      "id": "2fa47ff6-6872-4019-a795-07ec1de36dd2",
+      "name": "Aisyah Rahman",
+      "role": "Sales Executive",
+      "department": "Sales"
+    },
+    {
+      "id": "f122c505-8f45-421d-ba89-d394afc392ef",
+      "name": "Daniel Tan",
+      "role": "Operations Lead",
+      "department": "Operations"
+    },
+    {
+      "id": "ee5fc3c5-b152-4d68-ab39-fbc6bfaf7189",
+      "name": "Farah Zulkifli",
+      "role": "Compliance Officer",
+      "department": "Compliance"
+    },
+    {
+      "id": "148f5330-c2da-4677-948c-22891deb9ebd",
+      "name": "Wei Ming Lee",
+      "role": "Software Engineer",
+      "department": "Development"
+    },
+    {
+      "id": "dcb1ff61-83cb-48a7-9dc8-6c070a9742c8",
+      "name": "Nurul Iman",
+      "role": "Sales Manager",
+      "department": "Sales"
+    }
+  ],
+  "reviewCycles": [
+    {
+      "id": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "name": "Q3 2026 (Jul–Sep)",
+      "startDate": "2026-07-01",
+      "endDate": "2026-09-30"
+    }
+  ],
+  "kpis": [
+    {
+      "id": "f0886363-57c5-4469-8d39-eff5c359481c",
+      "employeeId": "2fa47ff6-6872-4019-a795-07ec1de36dd2",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Sales Goal 1",
+      "description": "Sample KPI 1 for Aisyah Rahman",
+      "category": "Sales",
+      "weight": 25,
+      "target": 100,
+      "current": 98,
+      "unit": "RM",
+      "status": "on_track"
+    },
+    {
+      "id": "f663f55b-3896-49e8-9df1-186d900ede31",
+      "employeeId": "2fa47ff6-6872-4019-a795-07ec1de36dd2",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Operations Goal 2",
+      "description": "Sample KPI 2 for Aisyah Rahman",
+      "category": "Operations",
+      "weight": 25,
+      "target": 120,
+      "current": 87,
+      "unit": "count",
+      "status": "not_started"
+    },
+    {
+      "id": "4d78fbae-c713-4cf2-9c90-96735d556abc",
+      "employeeId": "2fa47ff6-6872-4019-a795-07ec1de36dd2",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Compliance Goal 3",
+      "description": "Sample KPI 3 for Aisyah Rahman",
+      "category": "Compliance",
+      "weight": 25,
+      "target": 140,
+      "current": 133,
+      "unit": "RM",
+      "status": "behind"
+    },
+    {
+      "id": "fc9d5207-2f32-4b19-aec3-f2e360fb0aa0",
+      "employeeId": "2fa47ff6-6872-4019-a795-07ec1de36dd2",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Development Goal 4",
+      "description": "Sample KPI 4 for Aisyah Rahman",
+      "category": "Development",
+      "weight": 25,
+      "target": 160,
+      "current": 186,
+      "unit": "count",
+      "status": "at_risk"
+    },
+    {
+      "id": "75d56be3-ec50-4070-b790-2867441ed784",
+      "employeeId": "f122c505-8f45-421d-ba89-d394afc392ef",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Sales Goal 1",
+      "description": "Sample KPI 1 for Daniel Tan",
+      "category": "Sales",
+      "weight": 25,
+      "target": 100,
+      "current": 118,
+      "unit": "RM",
+      "status": "not_started"
+    },
+    {
+      "id": "8460104a-5c03-4d5a-bf51-e20da24301b3",
+      "employeeId": "f122c505-8f45-421d-ba89-d394afc392ef",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Operations Goal 2",
+      "description": "Sample KPI 2 for Daniel Tan",
+      "category": "Operations",
+      "weight": 25,
+      "target": 120,
+      "current": 62,
+      "unit": "count",
+      "status": "on_track"
+    },
+    {
+      "id": "47dbb02e-b3df-4228-b0f7-18bba05daa75",
+      "employeeId": "f122c505-8f45-421d-ba89-d394afc392ef",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Compliance Goal 3",
+      "description": "Sample KPI 3 for Daniel Tan",
+      "category": "Compliance",
+      "weight": 25,
+      "target": 140,
+      "current": 109,
+      "unit": "RM",
+      "status": "at_risk"
+    },
+    {
+      "id": "c29fd7f0-72b6-4ab9-b4ae-c0c95ce6c365",
+      "employeeId": "f122c505-8f45-421d-ba89-d394afc392ef",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Development Goal 4",
+      "description": "Sample KPI 4 for Daniel Tan",
+      "category": "Development",
+      "weight": 25,
+      "target": 160,
+      "current": 72,
+      "unit": "count",
+      "status": "not_started"
+    },
+    {
+      "id": "552140cb-c254-4270-b984-3eb1c58854d8",
+      "employeeId": "ee5fc3c5-b152-4d68-ab39-fbc6bfaf7189",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Sales Goal 1",
+      "description": "Sample KPI 1 for Farah Zulkifli",
+      "category": "Sales",
+      "weight": 25,
+      "target": 100,
+      "current": 93,
+      "unit": "RM",
+      "status": "at_risk"
+    },
+    {
+      "id": "3fc6ec45-6f71-40a0-9ee2-a850a49252de",
+      "employeeId": "ee5fc3c5-b152-4d68-ab39-fbc6bfaf7189",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Operations Goal 2",
+      "description": "Sample KPI 2 for Farah Zulkifli",
+      "category": "Operations",
+      "weight": 25,
+      "target": 120,
+      "current": 86,
+      "unit": "count",
+      "status": "behind"
+    },
+    {
+      "id": "7766c384-272b-4909-b14c-f760731b6d36",
+      "employeeId": "ee5fc3c5-b152-4d68-ab39-fbc6bfaf7189",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Compliance Goal 3",
+      "description": "Sample KPI 3 for Farah Zulkifli",
+      "category": "Compliance",
+      "weight": 25,
+      "target": 140,
+      "current": 127,
+      "unit": "RM",
+      "status": "at_risk"
+    },
+    {
+      "id": "e035ba09-6b52-45d5-9b06-913a3a8c6a91",
+      "employeeId": "ee5fc3c5-b152-4d68-ab39-fbc6bfaf7189",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Development Goal 4",
+      "description": "Sample KPI 4 for Farah Zulkifli",
+      "category": "Development",
+      "weight": 25,
+      "target": 160,
+      "current": 96,
+      "unit": "count",
+      "status": "behind"
+    },
+    {
+      "id": "d1a9253d-a61d-44bb-9469-03938eb4b6fb",
+      "employeeId": "148f5330-c2da-4677-948c-22891deb9ebd",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Sales Goal 1",
+      "description": "Sample KPI 1 for Wei Ming Lee",
+      "category": "Sales",
+      "weight": 25,
+      "target": 100,
+      "current": 84,
+      "unit": "RM",
+      "status": "not_started"
+    },
+    {
+      "id": "514e6871-8419-4f60-92ad-449aebb115d6",
+      "employeeId": "148f5330-c2da-4677-948c-22891deb9ebd",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Operations Goal 2",
+      "description": "Sample KPI 2 for Wei Ming Lee",
+      "category": "Operations",
+      "weight": 25,
+      "target": 120,
+      "current": 49,
+      "unit": "count",
+      "status": "not_started"
+    },
+    {
+      "id": "5a270486-cfcb-4035-8660-523c656c5177",
+      "employeeId": "148f5330-c2da-4677-948c-22891deb9ebd",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Compliance Goal 3",
+      "description": "Sample KPI 3 for Wei Ming Lee",
+      "category": "Compliance",
+      "weight": 25,
+      "target": 140,
+      "current": 117,
+      "unit": "RM",
+      "status": "not_started"
+    },
+    {
+      "id": "d8957729-ac6b-4d39-89a2-1f7b21a84813",
+      "employeeId": "148f5330-c2da-4677-948c-22891deb9ebd",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Development Goal 4",
+      "description": "Sample KPI 4 for Wei Ming Lee",
+      "category": "Development",
+      "weight": 25,
+      "target": 160,
+      "current": 67,
+      "unit": "count",
+      "status": "not_started"
+    },
+    {
+      "id": "4f951290-3103-4fda-8fe1-20f960313936",
+      "employeeId": "dcb1ff61-83cb-48a7-9dc8-6c070a9742c8",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Sales Goal 1",
+      "description": "Sample KPI 1 for Nurul Iman",
+      "category": "Sales",
+      "weight": 25,
+      "target": 100,
+      "current": 107,
+      "unit": "RM",
+      "status": "at_risk"
+    },
+    {
+      "id": "c8a717be-1486-4592-afd4-ea08fbfe3117",
+      "employeeId": "dcb1ff61-83cb-48a7-9dc8-6c070a9742c8",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Operations Goal 2",
+      "description": "Sample KPI 2 for Nurul Iman",
+      "category": "Operations",
+      "weight": 25,
+      "target": 120,
+      "current": 54,
+      "unit": "count",
+      "status": "not_started"
+    },
+    {
+      "id": "a96becc8-9180-416b-a76e-0ab4f926e317",
+      "employeeId": "dcb1ff61-83cb-48a7-9dc8-6c070a9742c8",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Compliance Goal 3",
+      "description": "Sample KPI 3 for Nurul Iman",
+      "category": "Compliance",
+      "weight": 25,
+      "target": 140,
+      "current": 75,
+      "unit": "RM",
+      "status": "not_started"
+    },
+    {
+      "id": "cc92b5c9-738c-4f74-ba42-3b633c557cb1",
+      "employeeId": "dcb1ff61-83cb-48a7-9dc8-6c070a9742c8",
+      "cycleId": "754d79d6-b914-46da-9474-2ee5a705424d",
+      "title": "Development Goal 4",
+      "description": "Sample KPI 4 for Nurul Iman",
+      "category": "Development",
+      "weight": 25,
+      "target": 160,
+      "current": 114,
+      "unit": "count",
+      "status": "behind"
+    }
+  ]
+}
