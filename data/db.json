@@ -29,6 +29,12 @@
       "name": "Nurul Iman",
       "role": "Sales Manager",
       "department": "Sales"
+    },
+    {
+      "id": "2dba42ad-eb06-4e7c-93dc-8b80dbddded4",
+      "name": "Rafil Fathanmubin",
+      "role": "Sales Manager",
+      "department": "Sales"
     }
   ],
   "reviewCycles": [
